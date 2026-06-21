@@ -31,7 +31,7 @@ nav a {
 }
 
 .Toppbilde {
-    background-image: url('../Images/colourtrees_croppedfrom2400_2.jpg');
+    background-image: url('Images/colourtrees_croppedfrom2400_2.jpg');
     background-size: cover;
     background-position: top;
     height:30vh;

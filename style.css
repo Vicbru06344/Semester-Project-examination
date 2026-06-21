@@ -30,7 +30,7 @@ nav a {
 }
 
 .Toppbilde {
-    background-image: url("./Images/brooke-cagle-FTVT2nfjXXM-unsplash.jpg");
+    background-image: url("./Images/colourtrees_croppedfrom2400_2.jpg");
     background-size: cover;
     background-position: top;
     height:30vh;
@@ -52,7 +52,7 @@ nav a {
     width: 100%;
     height: 40vh;
 
-    background-image: url('Images/brooke-cagle-FTVT2nfjXXM-unsplash.jpg');
+     background-image: url("./Images/brooke-cagle-FTVT2nfjXXM-unsplash.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

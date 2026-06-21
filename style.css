@@ -1,0 +1,243 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1;
+}
+
+nav { 
+    display: flex;
+    gap: 2rem;
+}
+header {
+    background-color: #808080;
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4vh;
+}
+.meny-logo {
+    height: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.Toppbilde {
+    background-image: url('../Images/colourtrees_croppedfrom2400_2.jpg');
+    background-size: cover;
+    background-position: top;
+    height:30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.picture-box-text {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 5px 40px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.4rem;
+    line-height: 2;
+    margin: 0;
+}
+
+.Toppbilde-about {
+    background-image: url('../Images/brooke-cagle-FTVT2nfjXXM-unsplash.jpg');
+    background-size: cover;
+    background-position: center 50%;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    height: 40vh;
+}
+.image-box-text {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 5px 40px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.4rem;
+    line-height: 2;
+    margin: 0;
+}
+.numbers-wrapper {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.picture-item {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: left;
+    line-height: 1.4;
+    display: inline-block;
+}
+
+.number-tree {
+    height: 50px;
+    width: auto;
+}
+
+.hero {
+    background-color: #F2F2F2;
+    padding: 40px 50px;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+.hero h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+}
+.hero p {
+    font-size: 1.1rem;
+    line-height: 2.5;
+}
+.events-section {
+    background-color: #F2F2F2;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.events-text p {
+    font-size: 1.1rem;
+    line-height: 2.5;
+    text-align: left;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+.events-section h2 {
+    font-size: 1.3rem;
+    padding-left: 50px;
+}
+.events-picture {
+    width: 40%;
+    border-radius: 5px;
+    object-fit: cover;
+    height: 205px;
+}
+.signup-line {
+    background-color: #F5FC9C;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.footer-logo-black {
+    height: 40px;
+    width: auto;
+}
+div.signup-button {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.our-trees, .tree-matters, .our-team, .about-rootrise {
+    background-color: #F2F2F2;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.our-trees, .about-rootrise {
+   margin-top: 0px;
+   margin-bottom: 10px;
+}
+.tree-matters, .our-team {
+    margin-top: 45px;
+    margin-bottom: 0px;
+}
+.our-trees h2, .tree-matters h2, .about-rootrise h2, .our-team h2 {
+    font-size: 1.3rem;
+}
+
+.tree-text, .matters-text, .our-team-text, .about-root-text, .questions-text {
+    line-height: 2.5rem;
+    padding-left: 50px;
+    font-size: 1.1;
+}
+
+.questions {
+    background-color: #F2F2F2;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    justify-content: center;
+    padding: 15px 15px;
+}
+.form-container {
+    text-align: center;
+    background-color:#F2F2F2;
+    border-radius: 7px;
+    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    margin: 10px auto;
+    max-width: 550px;
+}
+.form-container h2 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    color: rgb(75, 74, 74);
+}
+.form-container p {
+    font-size: 1.1rem;
+    color: rgb(75, 74, 74);
+    margin-bottom: 30px;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 25px;
+    width: 100%;
+}
+.form-group label {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color:rgb(75, 74, 74);
+}
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+.button-send {
+    background-color: #808080;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 5px;
+}
+.button-send:hover {
+    background-color: #808080;
+}
